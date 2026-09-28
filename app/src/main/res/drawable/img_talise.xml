@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+  <!-- Sunset Gradient Sky Background -->
+  <path
+      android:fillColor="#E65100"
+      android:pathData="M0,0h120v120h-120z"/>
+  <!-- Setting Sun -->
+  <path
+      android:fillColor="#FFD54F"
+      android:pathData="M60,50 A16,16 0 1,1 28,50 A16,16 0 1,1 60,50 Z"/>
+  <!-- Bridge Arch Silhouette -->
+  <path
+      android:fillColor="#BF360C"
+      android:pathData="M10,65 Q60,35 110,65 L110,72 Q60,42 10,72 Z"/>
+  <!-- Sea Surface -->
+  <path
+      android:fillColor="#3E2723"
+      android:pathData="M0,65 Q60,60 120,65 L120,120 L0,120 Z"/>
+  <path
+      android:fillColor="#4E342E"
+      android:pathData="M0,85 Q60,78 120,85 L120,120 L0,120 Z"/>
+</vector>

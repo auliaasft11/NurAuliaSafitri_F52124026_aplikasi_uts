@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+  <path
+      android:fillColor="#004D40"
+      android:pathData="M0,0h120v120h-120z"/>
+  <!-- Rock Terraces -->
+  <path
+      android:fillColor="#37474F"
+      android:pathData="M10,25 L110,25 L105,40 L15,40 Z M5,50 L115,50 L110,65 L10,65 Z M0,75 L120,75 L115,95 L5,95 Z"/>
+  <!-- Turquoise Cascading Water -->
+  <path
+      android:fillColor="#1DE9B6"
+      android:pathData="M40,0 L80,0 L75,120 L45,120 Z"/>
+  <path
+      android:fillColor="#A7FFEB"
+      android:pathData="M50,0 L70,0 L68,120 L52,120 Z"/>
+  <!-- Emerald Pool Bottom -->
+  <path
+      android:fillColor="#00BFA5"
+      android:pathData="M0,90 Q60,80 120,90 L120,120 L0,120 Z"/>
+</vector>

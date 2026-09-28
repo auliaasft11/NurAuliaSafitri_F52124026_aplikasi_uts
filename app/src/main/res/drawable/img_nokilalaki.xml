@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+  <path
+      android:fillColor="#1A237E"
+      android:pathData="M0,0h120v120h-120z"/>
+  <!-- Mountain Peak -->
+  <path
+      android:fillColor="#2E7D32"
+      android:pathData="M-10,95 L45,20 L100,95 Z"/>
+  <path
+      android:fillColor="#1B5E20"
+      android:pathData="M30,100 L85,35 L135,100 Z"/>
+  <!-- Clouds & Mist -->
+  <path
+      android:fillColor="#40FFFFFF"
+      android:pathData="M0,45 Q60,35 120,45 L120,55 Q60,45 0,55 Z"/>
+  <path
+      android:fillColor="#70FFFFFF"
+      android:pathData="M0,70 Q60,60 120,70 L120,80 Q60,70 0,80 Z"/>
+</vector>

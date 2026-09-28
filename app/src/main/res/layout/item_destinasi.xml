@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="12dp"
+    android:paddingVertical="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_card"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <!-- Gambar Foto Wisata (Diisi secara dinamis dari WisataData.kt -> WisataAdapter) -->
+        <ImageView
+            android:id="@+id/imgWisata"
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:layout_gravity="center_vertical"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/img_togean"
+            tools:ignore="ContentDescription" />
+
+        <!-- Container Informasi Wisata -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Judul & Tombol Favorit -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvNamaWisata"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:text="Kepulauan Togean" />
+
+                <!-- Tombol Hati Favorit -->
+                <ImageView
+                    android:id="@+id/btnFavorite"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_heart_outline"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <!-- Lokasi Kabupaten -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:src="@drawable/ic_location"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/tvKabupaten"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"
+                    tools:text="Kab. Tojo Una-Una" />
+            </LinearLayout>
+
+            <!-- Badge Kategori, Rating, & Harga -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <!-- Badge Kategori -->
+                <TextView
+                    android:id="@+id/tvKategori"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_badge_bahari"
+                    android:paddingHorizontal="8dp"
+                    android:paddingVertical="3dp"
+                    android:textColor="@color/badge_bahari_text"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    tools:text="Wisata Bahari" />
+
+                <!-- Badge Rating -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:background="@drawable/bg_rating_badge"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="6dp"
+                    android:paddingVertical="3dp">
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:src="@drawable/ic_star"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:id="@+id/tvRating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:textColor="#B45309"
+                        android:textSize="11sp"
+                        android:textStyle="bold"
+                        tools:text="4.9" />
+                </LinearLayout>
+
+                <!-- Badge Tiket -->
+                <TextView
+                    android:id="@+id/tvHargaTiket"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:background="@drawable/bg_price_badge"
+                    android:paddingHorizontal="6dp"
+                    android:paddingVertical="3dp"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    tools:text="Rp 25.000" />
+            </LinearLayout>
+
+            <!-- Ringkasan Deskripsi -->
+            <TextView
+                android:id="@+id/tvDeskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp"
+                tools:text="Surga bawah laut dunia dengan terumbu karang langka dan ubur-ubur tanpa sengat." />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+  <path
+      android:fillColor="#00695C"
+      android:pathData="M0,0h120v120h-120z"/>
+  <!-- Clear Sea Water -->
+  <path
+      android:fillColor="#009688"
+      android:pathData="M0,45 Q60,30 120,45 L120,120 L0,120 Z"/>
+  <!-- Karst Rock Islands -->
+  <path
+      android:fillColor="#37474F"
+      android:pathData="M15,80 L25,35 L45,35 L55,80 Z"/>
+  <path
+      android:fillColor="#263238"
+      android:pathData="M65,85 L75,25 L95,25 L105,85 Z"/>
+  <!-- Foliage on Karst Tops -->
+  <path
+      android:fillColor="#2E7D32"
+      android:pathData="M22,35 A8,8 0 1,1 38,35 A8,8 0 1,1 22,35 Z M72,25 A10,10 0 1,1 92,25 A10,10 0 1,1 72,25 Z"/>
+  <!-- Turquoise Lagoon Shore -->
+  <path
+      android:fillColor="#80CBC4"
+      android:pathData="M0,90 Q60,80 120,90 L120,120 L0,120 Z"/>
+</vector>

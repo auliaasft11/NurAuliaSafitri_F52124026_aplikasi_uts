@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+  <path
+      android:fillColor="#303F9F"
+      android:pathData="M0,0h120v120h-120z"/>
+  <!-- Sunset Twilight Sky -->
+  <path
+      android:fillColor="#5C6BC0"
+      android:pathData="M0,35 Q60,20 120,35 L120,120 L0,120 Z"/>
+  <!-- Mountain Range -->
+  <path
+      android:fillColor="#1A237E"
+      android:pathData="M-20,90 L30,40 L80,90 Z"/>
+  <path
+      android:fillColor="#283593"
+      android:pathData="M30,95 L80,50 L130,95 Z"/>
+  <!-- Paraglider Parachute Shape -->
+  <path
+      android:fillColor="#FF5722"
+      android:pathData="M60,15 Q80,10 100,22 Q80,26 60,15 Z"/>
+</vector>

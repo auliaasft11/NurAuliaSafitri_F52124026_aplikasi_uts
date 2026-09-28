@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+  <path
+      android:fillColor="#33691E"
+      android:pathData="M0,0h120v120h-120z"/>
+  <!-- Grass Hills -->
+  <path
+      android:fillColor="#558B2F"
+      android:pathData="M0,50 Q60,30 120,50 L120,120 L0,120 Z"/>
+  <path
+      android:fillColor="#689F38"
+      android:pathData="M0,75 Q60,60 120,75 L120,120 L0,120 Z"/>
+  <!-- Megalith Statue -->
+  <path
+      android:fillColor="#78909C"
+      android:pathData="M45,30 Q60,20 75,30 L80,95 L40,95 Z"/>
+  <!-- Eyes & Mouth Carvings -->
+  <path
+      android:fillColor="#37474F"
+      android:pathData="M50,42 A4,4 0 1,1 42,42 A4,4 0 1,1 50,42 Z M78,42 A4,4 0 1,1 70,42 A4,4 0 1,1 78,42 Z"/>
+  <path
+      android:fillColor="#37474F"
+      android:pathData="M52,60 L68,60 L66,66 L54,66 Z"/>
+</vector>

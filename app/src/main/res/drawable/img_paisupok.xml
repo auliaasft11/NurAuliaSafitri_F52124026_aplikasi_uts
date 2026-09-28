@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+  <!-- Deep Blue Forest Lake -->
+  <path
+      android:fillColor="#0D47A1"
+      android:pathData="M0,0h120v120h-120z"/>
+  <!-- Crystal Aqua Water -->
+  <path
+      android:fillColor="#00B0FF"
+      android:pathData="M0,45 Q60,30 120,45 L120,120 L0,120 Z"/>
+  <path
+      android:fillColor="#00E5FF"
+      android:pathData="M0,70 Q60,55 120,70 L120,120 L0,120 Z"/>
+  <!-- Rainforest Trees Rim -->
+  <path
+      android:fillColor="#1B5E20"
+      android:pathData="M-10,40 Q15,10 40,40 Q65,10 90,40 Q115,10 130,40 L130,60 L-10,60 Z"/>
+  <!-- Underwater Log Reflection Silhouette -->
+  <path
+      android:fillColor="#3E2723"
+      android:pathData="M20,80 L90,105 L95,98 L25,73 Z"/>
+</vector>

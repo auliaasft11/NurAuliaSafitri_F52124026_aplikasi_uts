@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Explore Sulteng</string>
+    <string name="title_explore">EXPLORE SULAWESI TENGAH</string>
+    <string name="subtitle_explore">Daftar Destinasi Wisata Pilihan</string>
+    <string name="search_hint">Cari destinasi atau kabupaten&#8230;</string>
+    <string name="stats_total_destinasi">10 Destinasi</string>
+    <string name="stats_rating_avg">⭐ 4.8 Rating</string>
+    <string name="stats_provinsi">Sulteng</string>
+
+    <!-- Categories -->
+    <string name="cat_all">Semua</string>
+    <string name="cat_bahari">Wisata Bahari</string>
+    <string name="cat_danau">Danau &amp; Air Terjun</string>
+    <string name="cat_sejarah">Sejarah &amp; Budaya</string>
+    <string name="cat_gunung">Gunung &amp; Alam</string>
+
+    <string name="empty_search">Tidak ada destinasi yang sesuai dengan pencarian.</string>
+    <string name="btn_reset_filter">Reset Filter</string>
+    <string name="detail_title">Detail Destinasi</string>
+    <string name="btn_share">Bagikan</string>
+    <string name="btn_close">Tutup</string>
+</resources>

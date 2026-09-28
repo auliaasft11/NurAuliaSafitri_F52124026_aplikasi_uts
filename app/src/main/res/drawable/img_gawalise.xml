@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+  <path
+      android:fillColor="#283593"
+      android:pathData="M0,0h120v120h-120z"/>
+  <!-- Mountain Gawalise Slope -->
+  <path
+      android:fillColor="#388E3C"
+      android:pathData="M-20,100 L50,25 L120,100 Z"/>
+  <path
+      android:fillColor="#2E7D32"
+      android:pathData="M20,105 L80,35 L140,105 Z"/>
+  <!-- Palu Bay & Sunset City Lights below -->
+  <path
+      android:fillColor="#0277BD"
+      android:pathData="M0,85 Q60,75 120,85 L120,120 L0,120 Z"/>
+  <path
+      android:fillColor="#FFD54F"
+      android:pathData="M15,95 A2,2 0 1,1 11,95 A2,2 0 1,1 15,95 Z M35,98 A2,2 0 1,1 31,98 A2,2 0 1,1 35,98 Z M75,93 A2,2 0 1,1 71,93 A2,2 0 1,1 75,93 Z M100,97 A2,2 0 1,1 96,97 A2,2 0 1,1 100,97 Z"/>
+</vector>

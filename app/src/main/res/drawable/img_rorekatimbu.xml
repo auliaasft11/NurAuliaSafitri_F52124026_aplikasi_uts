@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+  <path
+      android:fillColor="#004D40"
+      android:pathData="M0,0h120v120h-120z"/>
+  <!-- Mossy Forest Mountain Peak -->
+  <path
+      android:fillColor="#33691E"
+      android:pathData="M-10,95 L40,15 L90,95 Z"/>
+  <path
+      android:fillColor="#1B5E20"
+      android:pathData="M25,100 L75,25 L125,100 Z"/>
+  <!-- Pine/Mossy Trees -->
+  <path
+      android:fillColor="#558B2F"
+      android:pathData="M15,70 L25,45 L35,70 Z M55,75 L65,50 L75,75 Z M85,72 L95,48 L105,72 Z"/>
+</vector>

@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+  <path
+      android:fillColor="#1565C0"
+      android:pathData="M0,0h120v120h-120z"/>
+  <!-- High Ridge Peak -->
+  <path
+      android:fillColor="#2E7D32"
+      android:pathData="M-15,100 L60,18 L125,100 Z"/>
+  <path
+      android:fillColor="#1B5E20"
+      android:pathData="M10,105 L80,28 L135,105 Z"/>
+  <!-- Sun & Alpine Sky -->
+  <path
+      android:fillColor="#FFE082"
+      android:pathData="M95,20 A10,10 0 1,1 75,20 A10,10 0 1,1 95,20 Z"/>
+</vector>

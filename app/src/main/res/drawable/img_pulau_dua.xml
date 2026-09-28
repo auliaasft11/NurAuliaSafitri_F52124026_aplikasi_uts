@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+  <path
+      android:fillColor="#0288D1"
+      android:pathData="M0,0h120v120h-120z"/>
+  <!-- Sea Waves -->
+  <path
+      android:fillColor="#03A9F4"
+      android:pathData="M0,50 Q60,35 120,50 L120,120 L0,120 Z"/>
+  <!-- Twin Green Islands -->
+  <path
+      android:fillColor="#2E7D32"
+      android:pathData="M15,70 Q35,30 55,70 Z"/>
+  <path
+      android:fillColor="#388E3C"
+      android:pathData="M65,70 Q85,35 105,70 Z"/>
+  <!-- Beach Sand Rim -->
+  <path
+      android:fillColor="#FFF59D"
+      android:pathData="M10,70 Q35,65 60,70 L60,74 Q35,69 10,74 Z M60,70 Q85,65 110,70 L110,74 Q85,69 60,74 Z"/>
+  <!-- Deep Ocean -->
+  <path
+      android:fillColor="#01579B"
+      android:pathData="M0,85 Q60,75 120,85 L120,120 L0,120 Z"/>
+</vector>
